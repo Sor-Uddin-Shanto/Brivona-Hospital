@@ -1,0 +1,448 @@
+/* XL Device: 1200px */
+@media (min-width: 1450px) and (max-width: 1600px) {}
+
+@media (min-width: 1200px) and (max-width: 1449px) {}
+
+/* LG Device: 992px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home-category-contact::after {
+        width: 106%;
+        left: -6px;
+    }
+
+    .about-left .site-btn {
+        margin-top: 63px;
+    }
+
+    .apt-img img {
+        height: 504px;
+    }
+
+    .service-list li {
+        font-size: 14px;
+    }
+
+    .footer-details .links li a::before {
+        top: 12px;
+    }
+
+    .footer-details .links li a {
+        padding-left: 15px;
+    }
+
+    .header-top-left {
+        font-size: 11px;
+    }
+}
+
+/* MD Device: 768px */
+@media (min-width: 768px) and (max-width: 991px) {
+    section#service {
+        padding: 50px 0 40px 0;
+    }
+
+    section#team {
+        padding: 50px 0 40px 0;
+    }
+
+    .team-single img {
+        height: 220px;
+    }
+
+    section#client {
+        padding: 70px 0 70px 0;
+    }
+
+    .apt-img img {
+        width: 100%;
+    }
+
+    .provide-img img {
+        width: 100%;
+    }
+
+    .blog-single {
+        display: block;
+    }
+
+    .commu-main h3 {
+        font-size: 12px;
+    }
+
+    .commu-main p {
+        font-size: 12px;
+    }
+
+    .commu-main i {
+        font-size: 16px;
+        padding: 14px;
+        margin-right: 10px;
+    }
+
+    .col-md-4.commu-main {
+        padding: 5px;
+    }
+
+
+}
+
+/* SM Small Device: 768px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-top-left {
+        font-size: 12px;
+    }
+
+    .header-top-right {
+        display: flex;
+        float: initial;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .home-category-contact::after {
+        width: 105%;
+        height: 40px;
+        left: -5px;
+        bottom: -8px;
+    }
+
+    .home-category-item {
+        padding-bottom: 10px;
+    }
+
+    .home-content h6 {
+        font-size: 14px;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .home-content p {
+        padding: 15px 0;
+    }
+
+    .about-right h3 {
+        font-size: 30px;
+    }
+
+    .section-single img {
+        height: 280px;
+    }
+
+    section#team {
+        padding: 60px 0 60px 0;
+    }
+
+    .team-single-img img {
+        height: 375px;
+    }
+
+    .team-single {
+        margin-bottom: 20px;
+    }
+
+    section#client {
+        padding: 60px 0 70px 0;
+    }
+
+    .section-single {
+        margin-bottom: 30px;
+    }
+
+    .testing {
+        padding: 0;
+    }
+
+    section#contact-us {
+        padding: 100px 0 60px 0;
+    }
+
+    .apt-img img {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 40px;
+    }
+
+    section#counter {
+        padding: 40px 0 30px 0;
+    }
+
+    .counter-number h1 {
+        font-size: 45px;
+        padding: 10px 0 0;
+    }
+
+    .counter-number {
+        padding: 30px 0;
+    }
+
+    .counter-number span {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .blog .section-title h4 {
+        padding-top: 30px;
+    }
+
+    .blog .section-title a {
+        top: -5px;
+    }
+
+    section#blog {
+        padding: 65px 0 50px 0;
+    }
+
+    .commu-main {
+        margin-left: 100px;
+        padding: 10px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+
+    .footer-title {
+        padding-bottom: 5px;
+    }
+
+    .footer-details {
+        text-align: center;
+    }
+
+    .footer-details .links li a::before {
+        display: none;
+    }
+
+    .footer-details .links li {
+        display: inline;
+        padding-right: 10px;
+    }
+
+    .footer-details .links li a{
+        font-size: 14px;
+    }
+
+    .footer-news {
+        justify-content: center;
+    }
+}
+
+/* XSM All Small Device: 575px */
+@media (max-width: 575px) {
+    
+    .section-padding {
+        padding: 20px 0 20px 0;
+    }    
+
+    section.header-top {
+        display: none;
+    }
+
+    a.navbar-brand.logo {
+        width: 65%;
+    }
+
+    section.home-category {
+        display: none;
+    }
+
+    .section-single {
+        margin-bottom: 30px;
+    }
+
+    .home-content h1 {
+        font-size: 30px;
+    }
+
+    .home {
+        padding: 40px 0;
+    }
+
+    .home-content h6 img {
+        width: 25%;
+    }
+
+    .home-content p {
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+    .site-btn2 {
+        font-size: 12px;
+        padding: 10px 15px;
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .dr-appoint::after {
+        display: none;
+    }
+
+    .dr-appoint {
+        float: inherit;
+        text-align: center;
+        padding: 25px 0 0 0;
+    }
+
+    .site-btn {
+        padding: 8px 18px;
+    }
+
+    .about-right h3 {
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0 8px 0;
+    }
+
+    .about-right h5 {
+        text-align: center;
+    }
+
+    .about-right-list {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .about-right-list li {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .about-right .btn {
+        display: inline;
+        padding: 6px 12px;
+        margin-left: 6%;
+    }
+
+    .appointment-content h4 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .appointment-content .phone {
+        font-size: 20px;
+        padding-bottom: 5px;
+        line-height: 35px;
+    }
+
+    .clients-item {
+        padding: 0 25px 180px 25px;
+    }
+
+    .clients-item h4 {
+        font-size: 25px;
+        padding: 10px 0;
+    }
+
+    .apt-details {
+        background: #fff;
+        padding: 15px;
+    }
+
+    .apt-details .form-group {
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    .provide-details {
+        padding-top: 250px;
+    }
+
+    .provide-details h5 {
+        text-align: center;
+    }
+
+    .testing {
+        padding: 5px 40px;
+        text-align: center;
+    }
+
+    .counter-number h1 {
+        font-size: 45px;
+        padding: 15px 0 0;
+    }
+
+    .counter-number {
+        padding: 15px 0;
+    }
+
+    .blog .section-title a {
+        top: -5px;
+        margin-right: 20px;
+    }
+
+    .blog .section-title h4 {
+        font-size: 28px;
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .blog.section-padding {
+        padding: 50px 0 25px 0;
+    }
+
+    .section-title span {
+        padding-left: 20px;
+    }
+
+    .section-title p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .team-single {
+        margin-bottom: 20px;
+    }
+
+    .blog-single {
+        display: block;
+    }
+
+    .provide-details p {
+        text-align: center;
+    }
+
+    .provide-details .btn {
+        width: 60%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .provide-img {
+        padding-top: 30px;
+    }
+
+    .col-md-4.commu-main {
+        margin-bottom: 15px;
+    }
+
+    .communication {
+        padding: 30px 0;
+    }
+
+    footer {
+        padding-top: 25px;
+    }
+
+    .footer-title {
+        padding-bottom: 8px;
+        text-align: center;
+    }
+
+    .footer-details p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer-details ul {
+        text-align: center;
+    }
+
+    .footer-bottom {
+        margin-top: 20px;
+    }
+
+}
